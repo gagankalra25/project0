@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+                .head{
+                    height:10%;
+                    text-align:right ;
+                     }
+                .body{
+                    text-align: center;
+                }     
+                #a{
+                    border-radius:24px;
+                    border-style: solid;
+                    width:500px ;
+                    height:25px ;
+                } 
+                
+                .button{
+                
+                    background-color: #f8f9fa;
+                    border: 1px solid #f8f9fa;
+                    border-radius: 4px;
+                    color: #3c4043;
+                    font-family: arial,sans-serif;
+                    font-size: 14px;
+                    margin: 11px 4px;
+                    padding: 0 16px;
+                    line-height: 27px;
+                    height: 36px;
+                    min-width: 54px;
+                    text-align: center;
+                    cursor: pointer;
+                    user-select: none;
+                    
+
+
+
+                }
+                .button:hover{
+                    border: solid 1px grey;
+                }    
+        </style>
+        
+    </head>
+    <body>
+        <form >
+        <div class="head">
+            
+                <a href="page2.html"><input type="button" value="Go to Google Image Search" class="button"></a>
+             
+                <a href="page3.html"><input type="button" value="Go to Google Advanced Search" class="button"></a>
+              
+            
+        </div>
+        <div class="body">
+                <br><br><br><br><br>
+                <img src="Logo1.png" height="100px" width="300px"><br><br>
+                <input type="text" placeholder="Search here" id="a" name="q"><br><br><br>
+                <button formaction="https://google.com/search" class="button" >Google Search</button>
+                
+                <input type="submit" formaction="http://www.google.com/search" name="btnI" class="button" value="I am feeling lucky" >
+                    
+        </div>
+    </form>
+    </body>
+</html>

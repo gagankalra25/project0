@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Image Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+                .head{
+                    height:10%;
+                    text-align:right ;
+                     }
+                .body{
+                    text-align: center;
+                }     
+                #a{
+                    border-radius:24px;
+                    border-style: inherit;
+                    border-style: groove;
+                    box-shadow: lightgrey;
+                    width:500px ;
+                    height:25px ;
+                } 
+                #b{
+                    border-radius:24px;
+                    border-style: solid;
+                    height:25px ;
+                }   
+                .button{
+                
+                    background-color: #f8f9fa;
+                    border: 1px solid #f8f9fa;
+                    border-radius: 4px;
+                    color: #3c4043;
+                    font-family: arial,sans-serif;
+                    font-size: 14px;
+                    margin: 11px 4px;
+                    padding: 0 16px;
+                    line-height: 27px;
+                    height: 36px;
+                    min-width: 54px;
+                    text-align: center;
+                    cursor: pointer;
+                    user-select: none;
+                }  
+                .button:hover{
+                    border: solid 1px grey;
+                }   
+        </style>
+        
+    </head>
+    <body>
+        <form action="https://www.google.com/search">
+        <div class="head">
+            
+                <a href="Main_Page.html"><input type="button" value="Go back to Google Search" class="button"></a>
+                
+        </div>
+        <div class="body">
+                <br><br><br><br><br>
+                <img src="Logo2.png" height="100px" width="300px"><br><br>
+                <input type="text" placeholder="Search here" id="a" name="q"><br><br><br>
+                <input type="hidden" name="tbm" value="isch">
+                <input type="submit" value= "Google search" class="button">
+            
+        </div>
+    </form>
+    </body>
+</html>
